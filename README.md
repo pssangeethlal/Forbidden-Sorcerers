@@ -1,2 +1,2 @@
-# Ikka_OR_Ettan
+# Forbidden-Sorcerers
 The Mohanlal Mammootty Classifier!!!
