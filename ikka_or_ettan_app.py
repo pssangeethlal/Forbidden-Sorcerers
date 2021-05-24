@@ -1,5 +1,5 @@
 import streamlit as st
-import keras
+
 from keras.models import load_model
 st.set_option('deprecation.showfileUploaderEncoding',False)
 @st.cache(allow_output_mutation=True)
@@ -30,7 +30,10 @@ else:
     predictions = import_and_predict(test_image,model)
     
     categories = ["Mammootty","Mohanlal"]
-    string="The Uploaded image most likely to be "+categories[np.argmax(predictions)]
+    if np.max(predictions)  >= 0.8:
+        string="The Uploaded image most likely to be "+categories[np.argmax(predictions)]
+    else:
+        string="Oops! we don't know Who or what is this"
     st.success(string)
     
     
