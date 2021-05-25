@@ -16,11 +16,12 @@ BFH/recU4wiYM9bB9Eyj0/2021
 1. Upload the image you want to classify in the web app.
 2. This will classify the image and predict accordingly.
 ## Libraries used
-Keras==2.4.3
-streamlit==0.82.0
-tensorflow==2.4.1
-pandas
-numpy
+1. Keras==2.4.3
+2. streamlit==0.82.0
+3. tensorflow==2.4.1
+4. pandas
+5. numpy
+6. matplotlib
 ## How to configure
 1. Install Anaconda in your system. link: https://www.anaconda.com/products/individual
 2. Install the above mentioned libraries into your environment.
@@ -30,3 +31,4 @@ numpy
 2. Open JupyterNotebook in Anaconda navigator.
 3. Open the CNN_MODEL_TRAINING.ipynb file in JupyterNotebook(the file may found where you cloned it) and run all codes. this will train the dataset and save the best model.
 4. Open the Building_WebApp.ipynb file same way and run all the codes, this will open up the webapp.
+5. Upload the image and classify
