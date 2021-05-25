@@ -3,7 +3,7 @@
 # Forbidden-Sorcerers
 ## The Mohanlal Mammootty Classifier!!!
 This project is just awesome.We made a facial recognition program to identify the famous Malayalam actors Mohanlal and Mammooty from images!
-When we give an image it recognize wheather it is Mammootty or Mohanlal is present in the image with high accuracy. Here we use covolutional neural networks for training the model and the images of Mohanlal and Mammooty are not owned by us and is used for educational puposes.
+When we give an image it recognize wheather it is Mammootty or Mohanlal is present in the image with high accuracy. Here we use convolutional Neural Networks for training the model and the images of Mohanlal and Mammooty are not owned by us and is used for educational puposes.
 ## Team members
 1. Arya [https://github.com/Arya073]
 2. Name [Embed perosnal github URL]
