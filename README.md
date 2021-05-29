@@ -5,7 +5,7 @@
 ## The Mohanlal Mammootty Classifier!!!
 This project is just awesome.We made a facial recognition program to identify the famous Malayalam actors Mohanlal and Mammooty from images!
 When we give an image it recognize wheather it is Mammootty or Mohanlal is present in the image with high accuracy. Here we use convolutional Neural Networks(AlexNet) for training the model and the images of Mohanlal and Mammooty are not owned by us and is used for educational puposes.<br>
-You can download the dataset [here](https://www.kaggle.com/fillerink/mohanlal-mammooty-images)
+You can download the dataset [here](https://www.kaggle.com/fillerink/mohanlal-mammooty-images).
 
 
 ## Team members
@@ -33,6 +33,6 @@ BFH/recU4wiYM9bB9Eyj0/2021
 ## How to Run
 1. Clone this repo into your pc
 2. Open JupyterNotebook in Anaconda navigator.
-3. Open the CNN_MODEL_TRAINING.ipynb file in JupyterNotebook(the file may found where you cloned it) and run all codes. this will train the dataset and save the best model. Or download the trained model [click here](https://drive.google.com/file/d/1ZrZtt8A0ZWGYVEM1pAa3mD5qjFpZzsYN/view?usp=sharing) and paste into cloned directory.
+3. Open the CNN_MODEL_TRAINING.ipynb file in JupyterNotebook(the file may found where you cloned it) and run all codes. this will train the dataset and save the best model. Or [download](https://drive.google.com/file/d/1ZrZtt8A0ZWGYVEM1pAa3mD5qjFpZzsYN/view?usp=sharing) the trained model and paste into cloned directory.
 5. Open the Building_WebApp.ipynb file same way and run all the codes, this will open up the webapp.
 6. Upload the image and classify
